@@ -140,6 +140,7 @@ public class ControlPanel extends javax.swing.JPanel
         jSldScaleMaximumVelocity.setValue(500);
         jSldScaleMaximumVelocity.addChangeListener(new javax.swing.event.ChangeListener()
         {
+			@Override
             public void stateChanged(javax.swing.event.ChangeEvent evt)
             {
                 jSldScaleMaximumVelocityStateChanged(evt);
